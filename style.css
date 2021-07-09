@@ -1,0 +1,132 @@
+* {
+    margin:0;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: OPTIAlternateOne;
+    src: url("/OPTIAlternateOne/OPTIAlternateOne.otf") format("opentype");
+}
+body{
+    margin:0;
+    box-sizing: border-box;
+    font-family: OPTIAlternateOne !important;
+}
+.project-cont.row{
+    --bs-gutter-x: 0 !important; 
+}
+.bg{
+    margin:0;
+    position: relative;
+    background-color: #FEE1C7;
+    height: 100vh;
+    width: 100vw;
+}
+.bg.a{
+    background-image: url("/img/mebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+}
+
+.bg.b{
+    background-color: #FFF4EB;
+}
+.bg.c{
+    margin: 0 auto;
+    background-color: #FA7E61;
+}
+.bg.d{
+    background-color: #B5A886;
+}
+p{
+    font-size: 36pt;
+    color: #B5A886;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: #fee1c77e;
+    /* border-bottom: 1px solid; */
+}
+
+.welcome {
+    margin:auto;
+    color: #F44174;
+    font-size: 96px;
+    flex: 1 1 auto;
+    /* padding-left: 3%; */
+}
+
+.nav li{
+    
+    display: inline-block;
+    margin: 10px;
+    /* padding-right: 1%;
+    padding-left: 1%; */
+    
+    
+}
+
+  a{
+      text-align: center;
+      display: block;
+      font-size: 30px;
+      text-decoration: none !important;
+      /* background-color: bisque; */
+      padding: 0 20px 0 20px;
+      color: #0e060f !important;
+  }
+
+  .me p{
+    overflow: auto;
+    margin-left: 50%;
+    background-color: #0e060fce;
+    margin-top: 1%;
+    padding: 1%;
+  }
+
+  .me img{
+      display: block;
+      height:100vh;
+      width:50%;
+      float: left;
+  }
+
+  .hometext{
+
+      margin-left: 50%
+      
+  }
+
+  .boxcontainer{
+      /*display: flex;
+      margin: 0 0 0 0;*/
+  }
+  .box{
+      text-align: center;
+    }
+  .box img{
+    height:200px;
+    width:auto;
+
+  }
+  
+  .containerb{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .description p{
+    color: #FA7E61;
+  }
+
+  .projects{
+      font-size: 96pt;
+      text-align: center;
+      color: #FFF4EB;
+  }
